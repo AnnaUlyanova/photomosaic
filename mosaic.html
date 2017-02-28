@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <title>Mosaic</title>
+  </head>
+  <body>
+    <!-- Edit me. -->
+      <div class="container">
+      <h1>Photomosaic</h1>
+      <div>
+        <label>Load your file here:</label><br/>
+        <br />
+        <input type="file" id="imageLoader" name="imageLoader"/>
+      </div>
+        <canvas id="imageCanvas"></canvas>
+
+      <div>
+        <button onclick="generateMosaic()">Show mosaic</button>
+      </div>
+    </div>
+
+<script type="text/javascript" src="js/mosaic.js"></script>
+<script type="text/javascript" src="js/client.js"></script>
+  </body>
+</html>
