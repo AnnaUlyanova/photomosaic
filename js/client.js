@@ -1,7 +1,7 @@
-const imageLoader = document.getElementById('imageLoader')
-if (imageLoader) {
-  imageLoader.addEventListener('change', uploadImage, false)
-}
+// const imageLoader = document.getElementById('imageLoader')
+// if (imageLoader) {
+//   imageLoader.addEventListener('change', uploadImage, false)
+// }
 
 // load local image into canvas
 function uploadImage (e) {
