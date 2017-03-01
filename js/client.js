@@ -79,3 +79,7 @@ function generateMosaic () {
     ctx.fillRect(lastX, lastTileY, lastTileWidth, lastTileHeight)
   }
 }
+
+module.exports = {
+  getAverageRGB: getAverageRGB
+}
