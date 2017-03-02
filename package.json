@@ -4,10 +4,11 @@
   "version": "0.0.0",
   "scripts": {
     "start": "node server.js",
-    "test": "tap test/tape-test.js"
+    "test": "jest"
   },
   "devDependencies": {
     "electron": "^1.4.15",
+    "jest": "^19.0.2",
     "mocha": "^3.2.0",
     "mocha-phantomjs": "^4.1.0",
     "tap": "^10.2.2",
